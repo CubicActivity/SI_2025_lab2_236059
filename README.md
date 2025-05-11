@@ -43,7 +43,7 @@
 ```
 
 <h3>Тест случаи според критериумот Every path</h3>
-    ```java
+```java
     @Test
     void MultipleCondition() {
         // TC1: TXX (само price > 300)
@@ -66,5 +66,5 @@
         assertEquals(200*5, SILab2.checkCart(fff, "1234567890123456"), 0.001);
         System.out.println("FFF test successful");
     }    
-    ```
+```
 <h3>Објаснување на напишаните unit tests</h3><p>Овие тестови ја проверуваат целосната функционалност на методот <code>SILab2.checkCart()</code> според два клучни критериуми:</p><h4>1. Every Statement Tests</h4> <p>Обезбедуваат дека <strong>секој линија код</strong> е извршена барем еднаш:</p> <ul> <li><strong>Тест 1 & 2</strong>: Ги проверуваат граничните случаи за невалидни влезови (null листа и null име)</li> <li><strong>Тест 3</strong>: Случај што ги активира сите услови (цена, попуст, количина) и валидна карта</li> <li><strong>Тест 4</strong>: Проверува невалидна карта</li> </ul><h4>2. Multiple Condition Tests</h4> <p>Ги тестираат сите релевантни комбинации на условите во:</p> <pre><code>if (price>300 || discount>0 || quantity>10)</code></pre> <ul> <li><strong>TXX/FTX/FFT</strong>: Секој услов тестиран независно</li> <li><strong>FFF</strong>: Контролен случај без активирани услови</li> </ul>
