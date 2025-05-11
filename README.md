@@ -5,7 +5,8 @@
 </hr>
 
 <h3>Control Flow Graph</h3>
-![CFG drawio](https://github.com/user-attachments/assets/469c1fbf-a825-43f1-bbf2-5d3b0ae9ef2a)
+![CFG drawio](https://github.com/user-attachments/assets/5b94fe35-573b-4e2b-b5aa-af660c177e74)
+
 
 <h3>Цикломатска комплексност</h3>
 За да ја пресемтаме цикломатската комплескност, го броиме бројот на предикатни јазли, а тоа се 1, 4.2, 6, 8, 10, 14, 17.2, 19.2
